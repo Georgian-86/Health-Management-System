@@ -1,5 +1,10 @@
 # Health Management System
 
+## 🔗 Live Demo
+
+Experience the application: [Health Management System]:  https://p2x5t-yqaaa-aaaah-arcma-cai.icp0.io/#/project-details 
+
+
 <div align="center">
   <img src="https://img.freepik.com/free-vector/health-medical-app-online-mobile-phone_23-2148636827.jpg" alt="Health Management System Logo" width="300"/>
   <p><em>A secure, intelligent platform for managing your healthcare records</em></p>
@@ -68,10 +73,6 @@ The application prioritizes security, privacy, and user experience while leverag
 - **Build Tool**: DFX (DFINITY Canister SDK)
 - **Package Manager**: npm
 - **Version Control**: Git
-
-## 🔗 Live Demo
-
-Experience the application: [Health Management System]( https://bkyz2-fmaaa-aaaaa-qaaaq-cai.raw.ic0.app/](https://p2x5t-yqaaa-aaaah-arcma-cai.icp0.io/#/project-details )
 
 ## 🚀 Getting Started
 
@@ -223,47 +224,6 @@ The Health Management System follows a client-server architecture built on the I
 3. Backend stores and retrieves data from canisters
 4. Updates are propagated to the frontend in real-time
 
-## ❓ Troubleshooting
-
-### Deployment Issues
-
-#### Permission Errors (IC0406)
-
-If you encounter the error "Caller does not have Prepare permission, error code IC0406" during deployment, follow these steps:
-
-1. **Check which identity you're using**:
-   ```bash
-   dfx identity list
-   ```
-   The currently active identity will be marked with an asterisk (*).
-
-2. **Get your principal ID**:
-   ```bash
-   dfx identity get-principal
-   ```
-
-3. **Check the canister controllers**:
-   ```bash
-   dfx canister info Health-Management-frontend
-   ```
-
-4. **Add your identity as a controller**:
-   ```bash
-   dfx canister update-settings Health-Management-frontend --add-controller $(dfx identity get-principal)
-   ```
-
-5. **If the above doesn't work, try stopping and restarting the replica**:
-   ```bash
-   dfx stop
-   dfx start --clean --background
-   ```
-
-6. **If issues persist, try recreating the canister**:
-   ```bash
-   dfx canister delete Health-Management-frontend
-   dfx deploy Health-Management-frontend
-   ```
-
 #### Security Policy Warnings
 
 If you see warnings about security policies, create a `.ic-assets.json5` file in the project root:
@@ -277,12 +237,6 @@ If you see warnings about security policies, create a `.ic-assets.json5` file in
 ]
 ```
 
-### Common Runtime Issues
-
-- **"Cannot find Internet Identity canister"**: Ensure you've deployed the Internet Identity canister with `dfx deploy internet_identity`
-- **Frontend not connecting to backend**: Check that the canister IDs in `.env` match the deployed canisters
-- **Page not loading**: Clear browser cache and try again, or check browser console for errors
-
 ## 👥 Contributing
 
 We welcome contributions to the Health Management System! Here's how you can help:
@@ -294,10 +248,6 @@ We welcome contributions to the Health Management System! Here's how you can hel
 5. **Open a Pull Request**
 
 Please ensure your code follows our coding standards and includes appropriate tests.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
