@@ -71,7 +71,7 @@ The application prioritizes security, privacy, and user experience while leverag
 
 ## 🔗 Live Demo
 
-Experience the application: [Health Management System]([https://bkyz2-fmaaa-aaaaa-qaaaq-cai.raw.ic0.app/](https://p2x5t-yqaaa-aaaah-arcma-cai.icp0.io/#/project-details))
+Experience the application: [Health Management System]( https://bkyz2-fmaaa-aaaaa-qaaaq-cai.raw.ic0.app/](https://p2x5t-yqaaa-aaaah-arcma-cai.icp0.io/#/project-details )
 
 ## 🚀 Getting Started
 
