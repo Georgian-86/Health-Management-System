@@ -1,4 +1,4 @@
-# Health Management System
+# Health Management System (Domain: HealthCare)
 
 ## 🔗 Live Demo
 
@@ -11,10 +11,12 @@ Experience the application: [Health Management System]:  https://p2x5t-yqaaa-aaa
 </div>
 
 ## 📋 Table of Contents
+- [Live Demo](#live-demo)
+- [Problem Statement](#problem-statement)
+- [Our Solution](#our-solution).
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
-- [Live Demo](#live-demo)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -22,11 +24,26 @@ Experience the application: [Health Management System]:  https://p2x5t-yqaaa-aaa
 - [Deployment](#deployment)
 - [User Guide](#user-guide)
 - [Architecture](#architecture)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
+## 🌟 Problem Statement
+In traditional healthcare systems, patient records are often:
+  1. Scattered across multiple providers (hospitals, clinics, labs).
+  2. Stored in centralized databases, making them vulnerable to data breaches.
+  3. Prone to tampering, loss, and lack of proper traceability.
+  4. Difficult to access across institutions, especially during emergencies or transfers.
+  5. Not fully owned or controlled by patients, despite being about their health.
+These challenges create barriers in delivering timely, coordinated, and patient-centric care.
+
+## 💡 Our Solution
+We present a Blockchain-Based Healthcare Management System that uses blockchain to securely store and manage patient health records in a decentralized, tamper-proof, and transparent manner.
+Key Features:
+  🔐 Immutability: Once added, medical records cannot be altered or deleted, ensuring data integrity.
+  🌍 Decentralized Access: Authorized entities (doctors, labs, insurance providers) can access data without depending on a central authority.
+  👥 Patient-Centric Ownership: Patients control access to their records through cryptographic keys and smart contracts.
+  🧾 Auditability: Every transaction and access to medical data is logged and traceable.
+
+  
 ## 🌟 Overview
 
 Health Management System is a comprehensive platform built on the Internet Computer (IC) blockchain that empowers users to securely store, manage, and share their health records. With features like ABHA integration, AI-powered disease prediction, and an intuitive interface, it transforms how individuals interact with their healthcare data.
